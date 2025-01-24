@@ -33,7 +33,7 @@ public class GameMinDTO {
         this.title = projection.getTitle();
         this.imgUrl = projection.getImgUrl();
         this.shortDescription = projection.getShortDescription();
-        this.year = projection.getYear();
+        this.year = projection.getGameeYear();
     }
 
     public Long getId() {
